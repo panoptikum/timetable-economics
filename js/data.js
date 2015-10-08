@@ -463,8 +463,8 @@ var data = {
 			"taken": true,
       "lecturer": "C. Breunig",
       "sp": "6",
-      "category" : "Ökonometrie",
-      "subcategory" : "Mikroökonometrie",
+      "category" : "Mandatory Courses",
+      "subcategory" : "Microeconomics",
 			"language" : "english",
 			"lectures": [
 				{
