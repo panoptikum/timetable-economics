@@ -62,19 +62,19 @@ var data = {
 	],
 	"subjects":[
 		{
-			"name":"Test",
+			"name":"Introduction in Advanced Microeconomic Analysis",
 			"university":"HU_WiWi",
       "address" : "Spandauer Straße 1",
 			"taken": true,
-      "lecturer": "Pollrich und Strauz",
+      "lecturer": "Pollrich, Strauz",
       "sp": "6",
       "category" : "Mandatory Courses",
       "subcategory" : "Microeconomics",
 			"lectures": [
 				{
 					"day":"Montag",
-					"startTime": 8,
-          "duration": 2,
+					"startTime": 8.50,
+          "duration": 1.50,
           "room": "Room 220",
           "type": "VL"
 				}
