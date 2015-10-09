@@ -70,14 +70,22 @@ var data = {
       "category" : "Mandatory Courses",
 			"sub"	: "Microeconomics"
 			"lectures": [
-				{
-					"day":"Montag",
-					"startTime": 8.30,
-          "duration": 1.5,
-          "room": "220",
-          "type": "VL"
-				}
-			]
+							{
+								"day":"Donnerstag",
+								"startTime": 14,
+			          "duration": 2,
+			          "room": "HS 104a",
+			          "type": "VL"
+							},
+							{
+								"day":"Donnerstag",
+								"startTime": 16,
+			          "duration": 2,
+								"twoWeeksOnly": true,
+			          "room": "PCPool",
+			          "type": "ÜB"
+							}
+						]
 		}
 	]
 }
