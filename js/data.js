@@ -73,8 +73,8 @@ var data = {
 			"lectures": [
 				{
 					"day":"Montag",
-					"startTime": 8.50,
-          "duration": 1.50,
+					"startTime": 8,
+          "duration": 2,
           "room": "Room 220",
           "type": "VL"
 				}
