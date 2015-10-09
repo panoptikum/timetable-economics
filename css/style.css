@@ -13,7 +13,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	color: #3f3f3f;
 	font-size: 13px;
-	
+
 }
 
 #headerwrap{
@@ -31,7 +31,7 @@ body {
 	margin: 40px auto 50px;
 	position: relative;
 	height: 570px;
-	
+
 }
 
 #selectionarea {
@@ -67,7 +67,7 @@ body {
 	float: left;
 }
 
- 
+
 h1 {
   font-size: 2em;
   font-weight: bold;
@@ -106,7 +106,7 @@ h5 {
 	height: 32px;
 	width: 120px;
 	padding-top: 12px;
-	
+
 	text-align: center;
 	background-color: #3f3f3f;
 	color: white;
@@ -248,56 +248,56 @@ h5 {
 	float: left;
 	text-align: center;
 	overflow: hidden;
-	
+
 }
 
-#TU{
+#mandatory_courses{
 	background-color: #DEB196;
 }
 
-#TU:hover{
+#mandatory_courses:hover{
 	background-color: #e7c8b5;
 }
 
-#HU_WiWi{
+#eligible_mandatory{
 	background-color: #4EB2C1;
 }
 
-#HU_WiWi:hover{
+#eligible_mandatory:hover{
 	background-color: #83c9d3;
 }
 
-#FU{
+#electives{
 	background-color: #7A64B2;
 }
 
-#FU:hover{
+#electives:hover{
 	background-color: #a192c9;
 }
 
-#HU_Lebenswissenschaften{
+#methodical_courses{
 	background-color: #D56272;
 }
 
-#HU_Lebenswissenschaften:hover{
+#methodical_courses:hover{
 	background-color: #DF8995;
 }
 
 
-#HU_Mathe{
+#excercise_courses{
 	background-color: #EFBB26;
 }
 
-#HU_Mathe:hover{
+#excercise_courses:hover{
 	background-color: #f3ca57;
 }
 
 #Charite{
-	background-color: #CB282C;	
+	background-color: #CB282C;
 }
 
 #Charite:hover{
-	background-color: #da686b;	
+	background-color: #da686b;
 }
 
 #WIAS{
@@ -329,7 +329,7 @@ h5 {
 /*
 .myCheckbox span:hover {
     background: #4EB2C1
-} 
+}
 
 .myCheckbox input:checked + span:hover {
     background: white !important
