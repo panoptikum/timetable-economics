@@ -110,6 +110,26 @@ var data = {
 					"type": "Excercise"
 				}
 			]
-		}
+		},
+		{
+			"name":	"Advanced Microeconomic Theory (PhD-Level)",
+			"university":	"mandatory_courses",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "Friedrichsen, Huck, Kübler, Weizsäcker",
+			"sp": "6",
+			"category" : "Mandatory Courses",
+			"subcategory" : "Microeconomics",
+			"language"	: "english",
+			"lectures": [
+				{
+					"day":"Montag",
+					"startTime": 12,
+					"duration": 4,
+					"room": "Room 203",
+					"type": "VL"
+				}
+			]
+		},
 	]
 }
