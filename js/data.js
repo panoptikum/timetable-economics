@@ -63,10 +63,10 @@ var data = {
 	"subjects":[
 		{
 			"name":"Test",
-			"university":"HU",
-      "address" : "Spandauer Str. 1",
+			"university":"HU_WiWi",
+      "address" : "Spandauer Straße 1",
 			"taken": true,
-      "lecturer": "Pollrich, Strauz",
+      "lecturer": "Pollrich und Strauz",
       "sp": "6",
       "category" : "Mandatory Courses",
       "subcategory" : "Microeconomics",
