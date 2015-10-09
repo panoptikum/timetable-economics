@@ -68,7 +68,7 @@ var data = {
       "lecturer": "R. Schlittgen",
       "sp": "6",
       "category" : "Mandatory Courses",
-			"sub"	: "Microeconomics"
+			"sub"	: "Microeconomics",
 			"lectures": [
 							{
 								"day":"Donnerstag",
