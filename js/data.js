@@ -90,7 +90,7 @@ var data = {
 			"address" : "Spandauer Straße 1",
 			"taken": true,
 			"lecturer": "Schacherer",
-			"sp": "6",
+			"sp": "0",
 			"category" : "Exercise Courses",
 			"language"	: "english"
 			"annotation" : "Morning course starts at 8:30 am"
