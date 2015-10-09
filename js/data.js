@@ -58,7 +58,6 @@ var data = {
           "sp_range": [6]
         }
       ]
-			"break": true
     }
 	],
 	"subjects":[
@@ -77,8 +76,8 @@ var data = {
           "duration": 1.5,
           "room": "220",
           "type": "VL"
-				},
+				}
 			]
-		},
+		}
 	]
 }
