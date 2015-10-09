@@ -60,7 +60,7 @@ var data = {
       ]
     },
 		{
-			"main": "Excercise Courses"
+			"main": "Exercise Courses"
 		}
 	],
 	"subjects":[
@@ -86,7 +86,7 @@ var data = {
 		},
 		{
 			"name":"[E] Introduction in Advanced Microeconomic Analysis",
-			"university":"excercise_courses",
+			"university":"exercise_courses",
 			"address" : "Spandauer Straße 1",
 			"taken": true,
 			"lecturer": "Schacherer",
