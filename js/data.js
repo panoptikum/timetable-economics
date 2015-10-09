@@ -74,14 +74,22 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Microeconomics",
 			"language"	: "english",
+<<<<<<< HEAD
 			"annotation" : "",
 			"lectures": [
 				{
 					"day":"Dienstag",
+=======
+			"annotation" : "course starts at 8:30 am",
+			"lectures": [
+				{
+					"day":"Montag",
+>>>>>>> master
 					"startTime": 8,
 					"duration": 2,
 					"room": "Room 220",
 					"type": "VL"
+<<<<<<< HEAD
 				},
 				{
 					"day":"Mittwoch"
@@ -89,6 +97,8 @@ var data = {
 					"duration": 2,
 					"room": "Room 202",
 					"type": "VL"
+=======
+>>>>>>> master
 				}
 			]
 		},
@@ -129,7 +139,7 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Microeconomics",
 			"language"	: "english",
-			"annotation" : "This course already starts on 12th of October",
+			"annotation" : "This course already starts on October 12th"
 			"lectures": [
 				{
 					"day":"Montag",
