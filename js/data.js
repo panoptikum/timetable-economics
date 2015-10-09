@@ -62,30 +62,31 @@ var data = {
 	],
 	"subjects":[
 		{
-			"name":"Introduction to Advanced Microeconomic Analysis",
-      "address" : "Spandauer Str. 1",
+			"name":"Multivariante Verfahren",
+			"university":"FU",
+      "address" : "Garystr. 21, 14195 Berlin",
 			"taken": true,
       "lecturer": "R. Schlittgen",
-      "sp": "6",
+      "sp": "5",
       "category" : "Mandatory Courses",
-			"sub"	: "Microeconomics",
+      "subcategory" : "Microeconomics",
 			"lectures": [
-							{
-								"day":"Donnerstag",
-								"startTime": 14,
-			          "duration": 2,
-			          "room": "HS 104a",
-			          "type": "VL"
-							},
-							{
-								"day":"Donnerstag",
-								"startTime": 16,
-			          "duration": 2,
-								"twoWeeksOnly": true,
-			          "room": "PCPool",
-			          "type": "ÜB"
-							}
-						]
+				{
+					"day":"Donnerstag",
+					"startTime": 14,
+          "duration": 2,
+          "room": "HS 104a",
+          "type": "VL"
+				},
+				{
+					"day":"Donnerstag",
+					"startTime": 16,
+          "duration": 2,
+					"twoWeeksOnly": true,
+          "room": "PCPool",
+          "type": "ÜB"
+				}
+			]
 		}
 	]
 }
