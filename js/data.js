@@ -62,7 +62,7 @@ var data = {
 	],
 	"subjects":[
 		{
-			"name":"Advanced Microeconomic Analysis",
+			"name":"Adv. Microeconomic Analysis",
 			"university":"HU",
       "address" : "Spandauer Str. 1",
 			"taken": true,
