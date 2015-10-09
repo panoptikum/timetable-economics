@@ -7,7 +7,7 @@ var defaultSavedSubjects = {
 	]
 }
 
-var data = {  
+var data = {
   "categories" : [
     {
       "main": "Mandatory Courses",
@@ -23,81 +23,37 @@ var data = {
         {
           "name": "Econometrics",
           "sp_range": [6]
-        }	
-      ]
-    },
-    {
-      "main": "Wahrscheinlichkeitstheorie"
-    },
-    {
-      "main": "Fortgeschrittene Methoden der Statistik"
-    },
-    {
-      "main": "Statistische Inferenz",
-      "sub": [
-        {
-          "name": "Moderne Methoden der Statistik",
-          "sp_range": [6,14]
-        },
-        {
-          "name": "Angewandte Statistik",
-          "sp_range": [5,12]
-        },
-        {
-          "name": "Stichprobentheorie",
-          "sp_range": [-1,-1]
-        },
-        {
-          "name": "Aktuelle Forschungsfragen der Statistik",
-          "sp_range": [5,10]
-        },
-        {
-          "name": "Mathematische Statistik",
-          "sp_range": [10]
-        },
-        {
-          "name": "Nichtparametrische Statistik",
-          "sp_range": [10]
-        },
-        {
-          "name": "Statistik stochastischer Prozesse",
-          "sp_range": [5]
-        },
-        {
-          "name": "Zuverlässigkeitstheorie",
-          "sp_range": [10]
         }
       ]
     },
     {
-      "main": "Ökonometrie",
+      "main": "Eligible Compulsory Courses"
+    },
+    {
+      "main": "Electives",
       "sub": [
         {
-          "name": "Mikroökonometrie",
+          "name": "Research Seminars VWL",
+          "sp_range": [0]
+        }
+		}
+    {
+      "main": "Methodical Basics",
+      "sub": [
+        {
+          "name": "Econometrics",
           "sp_range": [5,12]
         },
         {
-          "name": "Ökonometrische Analyse von Paneldaten",
+          "name": "Operations Research",
           "sp_range": [6]
         },
         {
-          "name": "Zeitreihenökonometrie",
+          "name": "Statistics",
           "sp_range": [5,11]
         },
         {
-          "name": "Ökonometrische Analyse von Finanzmarktdaten",
-          "sp_range": [6]
-        },
-        {
-          "name": "Ökonometrische Analyse",
-          "sp_range": [5]
-        },
-        {
-          "name": "Projektseminar Ökonometrie",
-          "sp_range": [5]
-        },
-        {
-          "name": "Ausgewählte Themen der Ökonometri",
+          "name": "Information Systems",
           "sp_range": [6]
         }
       ],
@@ -152,9 +108,9 @@ var data = {
     {
       "main": "Wahlbereich",
     }
-  ], 
+  ],
 	"subjects":[
-		{  
+		{
 			"name":"Multivariante Verfahren",
 			"university":"FU",
       "address" : "Garystr. 21, 14195 Berlin",
@@ -169,7 +125,7 @@ var data = {
 					"startTime": 14,
           "duration": 2,
           "room": "HS 104a",
-          "type": "VL" 
+          "type": "VL"
 				},
 				{
 					"day":"Donnerstag",
@@ -177,11 +133,11 @@ var data = {
           "duration": 2,
 					"twoWeeksOnly": true,
           "room": "PCPool",
-          "type": "ÜB" 
+          "type": "ÜB"
 				}
 			]
 		},
-    {  
+    {
 			"name":"Einführung in Monte-Carlo-Methoden",
 			"university":"FU",
       "address" : "Garystr. 35, 14195 Berlin",
@@ -201,7 +157,7 @@ var data = {
 				}
 			]
 		},
-    {  
+    {
 			"name":"Stichprobenberfahren",
 			"university":"FU",
       "address" : "Garystr. 35, 14195 Berlin",
@@ -220,8 +176,8 @@ var data = {
           "type": "V/Ü"
 				}
 			]
-		},  
-    {  
+		},
+    {
 			"name":"Behandlung Fehlender Daten in Erhebungen",
 			"university":"FU",
       "address" : "Garystr. 35, 14195 Berlin",
@@ -240,8 +196,8 @@ var data = {
           "type": "V/Ü"
 				}
 			]
-		}, 
-    {  
+		},
+    {
 			"name":"Colloquium für Masterarbeitsstudenten und Doktoranden",
 			"university":"FU",
       "address" : "Garystr. 21, 14195 Berlin",
@@ -259,8 +215,8 @@ var data = {
           "type": "SE"
 				}
 			]
-		}, 
-    {  
+		},
+    {
 			"name":"Computergestützte Statistik mit SAS",
 			"university":"FU",
       "address" : "Garystr. 35, 14195 Berlin",
@@ -279,9 +235,9 @@ var data = {
           "type": "V/Ü"
 				}
 			]
-		}, 
-    
-    {  
+		},
+
+    {
 			"name":"Ökonometrische Analyse",
 			"university":"FU",
       "address" : "Garystr. 35, 14195 Berlin",
@@ -306,12 +262,12 @@ var data = {
           "type": "ÜB"
 				}
 			]
-		}, 
-		
+		},
+
 		// TODO Seminar Aktuelle Forschungsfragen der Ökonometrie FEHLT
-		
-		
-		{  
+
+
+		{
 			"name":"Angewandte Ökonometrie",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -338,9 +294,9 @@ var data = {
 				}
 			]
 		},
-		
-		
-		{  
+
+
+		{
 			"name":"Econometric Methods",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -384,9 +340,9 @@ var data = {
 				}
 			]
 		},
-		
-		
-		{  
+
+
+		{
 			"name":"Doktoranden- und Studienabschlussseminar",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -406,7 +362,7 @@ var data = {
 			]
 		},
 		/*
-		{  
+		{
 			"name":"Time Series Analysis (HU)",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -433,8 +389,8 @@ var data = {
 				}
 			]
 		},
-		
-		{  
+
+		{
 			"name":"Econometric Projects",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -456,7 +412,7 @@ var data = {
 			]
 		},
 		*/
-		{  
+		{
 			"name":"Microeconometrics (HU)",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -483,7 +439,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Economic Risk",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -503,7 +459,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Multivariate Statistische Analyse I",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -523,7 +479,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Datenanlyse II",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -558,7 +514,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Statistics of Financial Markets I",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -579,7 +535,7 @@ var data = {
 			]
 		},
 		/* TODO IS MISSING
-		{  
+		{
 			"name":"Statistical Programming Languages",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -615,7 +571,7 @@ var data = {
 			]
 		},
 		*/
-		{  
+		{
 			"name":"Selected Topic in History of Statistics",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -634,7 +590,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Mathematical Statistics",
 			"university":"WIAS",
       "address" : "Mohrenstraße 39",
@@ -654,8 +610,8 @@ var data = {
 				}
 			]
 		},
-		
-		{  
+
+		{
 			"name":"Einführung zu numerischen Verfahren",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -675,7 +631,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Statistical Tools in Finance and Insurance",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -695,7 +651,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Selected Topics of Mathematical Statistics",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -714,10 +670,10 @@ var data = {
 				}
 			]
 		},
-		
-		
-		
-		{  
+
+
+
+		{
 			"name":"Stochastik II",
 			"university":"HU_Mathe",
       "address" : "Rudower Chaussee 25/26",
@@ -750,8 +706,8 @@ var data = {
 				}
 			]
 		},
-		
-		{  
+
+		{
 			"name":"Methoden der Statistik",
 			"university":"HU_Mathe",
       "address" : "Rudower Chaussee 25/26",
@@ -786,7 +742,7 @@ var data = {
 			]
 		},
 		/*
-		{  
+		{
 			"name":"Nichtparametrische Statistik",
 			"university":"HU_Mathe",
       "address" : "Rudower Chaussee 25/26",
@@ -820,7 +776,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Nichtparametrische Testtheorie",
 			"university":"HU_Mathe",
       "address" : "Rudower Chaussee 25/26",
@@ -840,7 +796,7 @@ var data = {
 			]
 		},
 		*/
-		{  
+		{
 			"name":"Modern Methods in Applied Stochastics and Nonprametric Statistics",
 			"university":"HU_Mathe",
       "address" : "Rudower Chaussee 25/26",
@@ -859,7 +815,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Statistische Lerntheorie",
 			"university":"HU_Mathe",
       "address" : "Rudower Chaussee 25/26",
@@ -878,7 +834,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Stochastische Finanzmathematik",
 			"university":"HU_Mathe",
       "address" : "Rudower Chaussee 25/26",
@@ -912,8 +868,8 @@ var data = {
 				}
 			]
 		},
-		
-		{  
+
+		{
 			"name":"Projektpraktikum II (Stochastik)",
 			"university":"HU_Mathe",
       "address" : "Rudower Chaussee 25/26",
@@ -932,9 +888,9 @@ var data = {
 				}
 			]
 		},
-		
+
 		/*
-		{  
+		{
 			"name":"Statistik stochastischer Prozesse",
 			"university":"HU_Mathe",
       "address" : "Rudower Chaussee 25/26",
@@ -962,9 +918,9 @@ var data = {
 			]
 		},
 		*/
-		
 
-		{  
+
+		{
 			"name":"Methodenlehre I (Multivariante Verfahren in er Psychologie)",
 			"university":"HU_Lebenswissenschaften",
       "address" : "Rudower Chaussee 25/26, Zum Großen Winkanal 2 (ZGW2)",
@@ -1007,8 +963,8 @@ var data = {
 				},
 			]
 		},
-		
-		{  
+
+		{
 			"name":"Engineering Statistics",
 			"university":"TU",
       "address" : "Straße des 17. Juni 135",
@@ -1035,7 +991,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Microeconometrics (TU)",
 			"university":"TU",
       "address" : "Straße des 17. Juni 135",
@@ -1063,7 +1019,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Time Series Analysis",
 			"university":"TU",
       "address" : "Straße des 17. Juni 135",
@@ -1091,7 +1047,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Business Analytics and Data Science",
 			"university":"HU_WiWi",
       "address" : "Spandauer Str. 1, 10178 Berlin",
@@ -1125,7 +1081,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Machine Learning I",
 			"university":"TU",
       "address" : "Straße des 17. Juni 135",
@@ -1152,7 +1108,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Machine Intelligence I",
 			"university":"TU",
       "address" : "EB Straße des 17. Juni 145",
@@ -1185,7 +1141,7 @@ var data = {
 				}
 			]
 		},
-		{  
+		{
 			"name":"Bayesian Learning",
 			"university":"TU",
       "address" : "Marchstr. 23",
@@ -1204,6 +1160,6 @@ var data = {
 				}
 			]
 		},
-		
+
 	]
 }
