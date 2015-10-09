@@ -37,7 +37,7 @@ var data = {
           "sp_range": [0]
         }
 			]
-		}
+		},
     {
       "main": "Methodical Basics",
       "sub": [
@@ -57,10 +57,10 @@ var data = {
           "name": "Information Systems",
           "sp_range": [6]
         }
-      ],
+      ]
 			"break": true
     }
-	]
+	],
 	"subjects":[
 		{
 			"name":"Introduction to Advanced Microeconomic Analysis",
