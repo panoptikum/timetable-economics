@@ -65,26 +65,6 @@ var data = {
 	],
 	"subjects":[
 		{
-			"name":	"Introduction in Advanced Microeconomic Analysis",
-			"university":	"mandatory_courses",
-      "address" : "Spandauer Straße 1",
-			"taken": true,
-      "lecturer": "Pollrich, Strauz",
-      "sp": "6",
-      "category" : "Mandatory Courses",
-      "subcategory" : "Microeconomics",
-			"language"	: "english",
-			"lectures": [
-				{
-					"day":"Montag",
-					"startTime": 8,
-          "duration": 2,
-          "room": "Room 220",
-          "type": "VL"
-				}
-			]
-		},
-		{
 			"name":"[E] Introduction in Advanced Microeconomic Analysis",
 			"university":"exercise_courses",
 			"address" : "Spandauer Straße 1",
@@ -121,6 +101,7 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Microeconomics",
 			"language"	: "english",
+			"annotation" : "This course already starts on 12th of October"
 			"lectures": [
 				{
 					"day":"Montag",
@@ -131,5 +112,157 @@ var data = {
 				}
 			]
 		},
+		{
+			"name":"[E] Advanced Microeconomic Theory (PhD-Level)",
+			"university":"exercise_courses",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "Qi, Frys",
+			"sp": "0",
+			"category" : "Exercise Courses",
+			"language"	: "english",
+			"annotation" : "",
+			"lectures": [
+				{
+					"day":"Donnerstag",
+					"startTime": 8,
+					"duration": 2,
+					"room": "Room 21a",
+					"type": "Exercise"
+				},
+				{
+					"day":"Freitag",
+					"startTime": 14,
+					"duration": 2,
+					"room": "Room 21a",
+					"type": "Excercise"
+				}
+			]
+		},
+		{
+			"name":	"Introduction in Advanced Macroeconomic Analaysis",
+			"university":	"mandatory_courses",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "Weinke",
+			"sp": "6",
+			"category" : "Mandatory Courses",
+			"subcategory" : "Macroeconomics",
+			"language"	: "english",
+			"annotation" : ""
+			"lectures": [
+				{
+					"day":"Dienstag",
+					"startTime": 12,
+					"duration": 2,
+					"room": "Room 201",
+					"type": "VL"
+				}
+			]
+		},
+		{
+			"name":"[E] Introduction in Advanced Macroeconomic Analysis",
+			"university":"exercise_courses",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "tbc",
+			"sp": "0",
+			"category" : "Exercise Courses",
+			"language"	: "english",
+			"annotation" : "",
+			"lectures": [
+				{
+					"day":"Donnerstag",
+					"startTime": 12,
+					"duration": 2,
+					"room": "Room 202",
+					"type": "Exercise"
+				},
+				{
+					"day":"Freitag",
+					"startTime": 10,
+					"duration": 2,
+					"room": "Room 22",
+					"type": "Excercise"
+				}
+			]
+		},
+		{
+			"name":	"Advanced Macroeconomic Analaysis (PhD-Level)",
+			"university":	"mandatory_courses",
+			"address" : "DIW, Mohrenstr. 58",
+			"taken": true,
+			"lecturer": "Burda",
+			"sp": "6",
+			"category" : "Mandatory Courses",
+			"subcategory" : "Macroeconomics",
+			"language"	: "english",
+			"annotation" : ""
+			"lectures": [
+				{
+					"day":"Mittwoch",
+					"startTime": 8,
+					"duration": 4,
+					"room": "Dulles-hall",
+					"type": "VL"
+				}
+			]
+		},
+		{
+			"name":	"Econometric Methods",
+			"university":	"mandatory_courses",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "Droge",
+			"sp": "6",
+			"category" : "Mandatory Courses",
+			"subcategory" : "Econometrics",
+			"language"	: "english",
+			"annotation" : ""
+			"lectures": [
+				{
+					"day":"Dienstag",
+					"startTime": 10,
+					"duration": 2,
+					"room": "Room 202",
+					"type": "VL"
+				},
+				{
+					"day":"Mittwoch"
+					"startTime": 10,
+					"duration": 2,
+					"room": "Room 202",
+					"type": "VL"
+				}
+			]
+		},
+		{
+			"name":	"[E] Econometric Methods",
+			"university":	"mandatory_courses",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "Furdas, Priesack",
+			"sp": "6",
+			"category" : "Exercise Courses",
+			"subcategory" : "Econometrics",
+			"language"	: "english",
+			"annotation" : ""
+			"lectures": [
+				{
+					"day":"Donnerstag",
+					"startTime": 14,
+					"duration": 2,
+					"room": "Room 202",
+					"type": "Exercise"
+				},
+				{
+					"day":"Freitag"
+					"startTime": 12,
+					"duration": 2,
+					"room": "Room 202",
+					"type": "Exercise"
+				}
+			]
+		}
 	]
 }
