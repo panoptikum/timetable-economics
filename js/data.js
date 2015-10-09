@@ -36,6 +36,7 @@ var data = {
           "name": "Research Seminars VWL",
           "sp_range": [0]
         }
+			]
 		}
     {
       "main": "Methodical Basics",
@@ -58,57 +59,8 @@ var data = {
         }
       ],
 			"break": true
-    },
-    {
-      "main": "Quantitative Methoden der Finanzmärkte",
-      "sub": [
-        {
-          "name": "Statistik und Finanzwirtschaft",
-          "sp_range": [6,12]
-        },
-        {
-          "name": "Statistik der Finanzmärkte",
-          "sp_range": [6,9]
-        },
-        {
-          "name": "Ökonometrische Analyse von Finanzmarktdaten",
-          "sp_range": [6]
-        },
-        {
-          "name": "Stochastik der Finanzmärkte",
-          "sp_range": [10]
-        }
-      ]
-    },
-    {
-      "main": "Survey Statistik",
-      "sub": [
-        {
-          "name": "Grundlagen der Stichprobentheorie",
-          "sp_range": [6]
-        },
-        {
-          "name": "Fortgeschrittene Methoden der Survey Statistik",
-          "sp_range": [10]
-        },
-        {
-          "name": "Nonresponse",
-          "sp_range": [6,12]
-        },
-        {
-          "name": "Simulation und Stichprobenziehung",
-          "sp_range": [5,10]
-        }
-      ]
-    },
-    {
-      "main": "Statistik in den Lebenswissenschaften",
-			"break": true
-    },
-    {
-      "main": "Wahlbereich",
     }
-  ],
+	]
 	"subjects":[
 		{
 			"name":"Introduction to Advanced Microeconomic Analysis",
@@ -117,6 +69,7 @@ var data = {
       "lecturer": "R. Schlittgen",
       "sp": "6",
       "category" : "Mandatory Courses",
+			"sub"	: "Microeconomics"
 			"lectures": [
 				{
 					"day":"Montag",
