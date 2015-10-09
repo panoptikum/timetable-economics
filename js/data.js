@@ -62,19 +62,19 @@ var data = {
 	],
 	"subjects":[
 		{
-			"name":"Multivariante Verfahren",
-			"university":"FU",
-      "address" : "Garystr. 21, 14195 Berlin",
+			"name":"Advanced Microeconomic Analysis",
+			"university":"HU",
+      "address" : "Spandauer Str. 1",
 			"taken": true,
-      "lecturer": "R. Schlittgen",
-      "sp": "5",
+      "lecturer": "Pollrich, Strauz",
+      "sp": "6",
       "category" : "Mandatory Courses",
       "subcategory" : "Microeconomics",
 			"lectures": [
 				{
 					"day":"Montag",
-					"startTime": 8,
-          "duration": 2,
+					"startTime": 8.30,
+          "duration": 1.5,
           "room": "Room 220",
           "type": "VL"
 				}
