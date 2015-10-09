@@ -65,15 +65,15 @@ var data = {
 	],
 	"subjects":[
 		{
-			"name":"Introduction in Advanced Microeconomic Analysis",
-			"university":"mandatory_courses",
+			"name":	"Introduction in Advanced Microeconomic Analysis",
+			"university":	"mandatory_courses",
       "address" : "Spandauer Straße 1",
 			"taken": true,
       "lecturer": "Pollrich, Strauz",
       "sp": "6",
       "category" : "Mandatory Courses",
       "subcategory" : "Microeconomics",
-			"language"	: "english"
+			"language"	: "english",
 			"lectures": [
 				{
 					"day":"Montag",
@@ -85,15 +85,15 @@ var data = {
 			]
 		},
 		{
-			"name":"Introduction in Advanced Microeconomic Analysis",
-			"university":"excercise_courses",
+			"name":	"Introduction in Advanced Microeconomic Analysis",
+			"university":	"excercise_courses",
 			"address" : "Spandauer Straße 1",
 			"taken": true,
 			"lecturer": "Schacherer",
 			"sp": "0",
 			"category" : "Exercise Courses",
-			"language"	: "english"
-			"annotation" : "Morning course starts at 8:30 am"
+			"language"	: "english",
+			"annotation" : "Morning course starts at 8:30 am",
 			"lectures": [
 				{
 					"day":"Mittwoch",
