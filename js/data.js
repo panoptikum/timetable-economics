@@ -83,7 +83,7 @@ var data = {
           "type": "VL"
 				}
 			]
-		}
+		},
 		{
 			"name":"Introduction in Advanced Microeconomic Analysis",
 			"university":"excercise_courses",
