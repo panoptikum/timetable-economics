@@ -67,14 +67,14 @@ var data = {
       "address" : "Spandauer Str. 1",
 			"taken": true,
       "lecturer": "R. Schlittgen",
-      "sp": "5",
+      "sp": "6",
       "category" : "Mandatory Courses",
       "subcategory" : "Microeconomics",
 			"lectures": [
 				{
 					"day":"Montag",
-					"startTime": 8.30,
-          "duration": 1.5,
+					"startTime": 8,
+          "duration": 2,
           "room": "Room 220",
           "type": "VL"
 				}
