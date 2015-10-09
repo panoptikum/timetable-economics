@@ -62,12 +62,12 @@ var data = {
 	],
 	"subjects":[
 		{
-			"name":"Introduction in Microeconomic Analysis",
-			"university":"HU",
-      "address" : "Spandauer Str. 1",
+			"name":"Multivariante Verfahren",
+			"university":"FU",
+      "address" : "Garystr. 21, 14195 Berlin",
 			"taken": true,
       "lecturer": "R. Schlittgen",
-      "sp": "6",
+      "sp": "5",
       "category" : "Mandatory Courses",
       "subcategory" : "Microeconomics",
 			"lectures": [
