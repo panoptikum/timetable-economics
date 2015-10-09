@@ -58,18 +58,22 @@ var data = {
           "sp_range": [6]
         }
       ]
-    }
+    },
+		{
+			"main": "Excercise Courses"
+		}
 	],
 	"subjects":[
 		{
 			"name":"Introduction in Advanced Microeconomic Analysis",
-			"university":"HU_WiWi",
+			"university":"mandatory_courses",
       "address" : "Spandauer Straße 1",
 			"taken": true,
       "lecturer": "Pollrich, Strauz",
       "sp": "6",
       "category" : "Mandatory Courses",
       "subcategory" : "Microeconomics",
+			"language"	: "english"
 			"lectures": [
 				{
 					"day":"Montag",
@@ -77,6 +81,33 @@ var data = {
           "duration": 2,
           "room": "Room 220",
           "type": "VL"
+				}
+			]
+		}
+		{
+			"name":"Introduction in Advanced Microeconomic Analysis",
+			"university":"excercise_courses",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "Schacherer",
+			"sp": "6",
+			"category" : "Exercise Courses",
+			"language"	: "english"
+			"annotation" : "Morning course starts at 8:30 am"
+			"lectures": [
+				{
+					"day":"Mittwoch",
+					"startTime": 8,
+					"duration": 2,
+					"room": "Room 220",
+					"type": "Exercise"
+				},
+				{
+					"day":"Mittwoch",
+					"startTime": 14,
+					"duration": 2,
+					"room": "Room 202",
+					"type": "Excercise"
 				}
 			]
 		}
