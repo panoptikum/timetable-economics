@@ -170,7 +170,7 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Macroeconomics",
 			"language"	: "english",
-			"annotation"	:	""
+			"annotation"	:	"",
 			"lectures": [
 				{
 					"day":"Dienstag",
