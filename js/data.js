@@ -122,7 +122,7 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Microeconomics",
 			"language"	: "english",
-			"annotation"	:	"This course already starts on October 12th"
+			"annotation"	:	"This course already starts on October 12th",
 			"lectures": [
 				{
 					"day":"Montag",
