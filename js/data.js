@@ -218,7 +218,7 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Macroeconomics",
 			"language"	: "english",
-			"annotation"	:	""
+			"annotation"	:	"",
 			"lectures": [
 				{
 					"day":"Mittwoch",
@@ -239,7 +239,7 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Econometrics",
 			"language"	: "english",
-			"annotation"	:	""
+			"annotation"	:	"",
 			"lectures": [
 				{
 					"day":"Dienstag",
@@ -267,7 +267,7 @@ var data = {
 			"category" : "Exercise Courses",
 			"subcategory" : "Econometrics",
 			"language"	: "english",
-			"annotation"	:	""
+			"annotation"	:	"",
 			"lectures": [
 				{
 					"day":"Donnerstag",
