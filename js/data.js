@@ -22,7 +22,7 @@ var data = {
         },
         {
           "name": "Econometrics",
-          "sp_range": [6]
+          "sp_range": [12]
         }
       ]
     },
@@ -209,7 +209,7 @@ var data = {
 			]
 		},
 		{
-			"name":	"Advanced Macroeconomic Analaysis (PhD-Level)",
+			"name":	"Advanced Macroeconomic Analaysis I (PhD-Level)",
 			"university":	"mandatory_courses",
 			"address" : "DIW, Mohrenstr. 58",
 			"taken": true,
@@ -235,7 +235,7 @@ var data = {
 			"address" : "Spandauer Straße 1",
 			"taken": true,
 			"lecturer": "Droge",
-			"sp": "6",
+			"sp": "12",
 			"category" : "Mandatory Courses",
 			"subcategory" : "Econometrics",
 			"language"	: "english",
@@ -263,7 +263,7 @@ var data = {
 			"address" : "Spandauer Straße 1",
 			"taken": true,
 			"lecturer": "Furdas, Priesack",
-			"sp": "6",
+			"sp": "0",
 			"category" : "Exercise Courses",
 			"subcategory" : "Econometrics",
 			"language"	: "english",
@@ -282,6 +282,27 @@ var data = {
 					"duration": 2,
 					"room": "Room 202",
 					"type": "Exercise"
+				}
+			]
+		},
+		{
+			"name":	"Empirical Labor Economics",
+			"university":	"eligible_mandatory",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "Spitz-Oener",
+			"sp": "6",
+			"category" : "Eligible Compulsory Courses",
+			"subcategory" : "",
+			"language"	: "english",
+			"annotation"	:	"lecture and excersie are given together",
+			"lectures": [
+				{
+					"day":"Montag",
+					"startTime": 12,
+					"duration": 4,
+					"room": "Room 22",
+					"type": "VL/Exercise"
 				}
 			]
 		}
