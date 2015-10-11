@@ -35,11 +35,7 @@ var data = {
         {
           "name": "Research Seminars VWL",
           "sp_range": [0]
-        },
-				{
-					"name": "Lectures",
-					"sp_range": [6]
-				}
+        }
 			]
 		},
     {
@@ -338,7 +334,7 @@ var data = {
 			"taken": true,
 			"lecturer": "Mihram",
 			"sp": "6",
-			"category" : "Exercise",
+			"category" : "Exercise Courses",
 			"subcategory" : "",
 			"language"	: "english",
 			"annotation"	:	"lecture and excersie are given together",
