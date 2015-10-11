@@ -295,7 +295,7 @@ var data = {
 			"category" : "Eligible Compulsory Courses",
 			"subcategory" : "",
 			"language"	: "english",
-			"annotation"	:	"lecture and excersie are given together",
+			"annotation"	:	"lecture and exersie are given together",
 			"lectures": [
 				{
 					"day":"Montag",
@@ -305,6 +305,48 @@ var data = {
 					"type": "VL/Exercise"
 				}
 			]
-		}
+		},
+		{
+			"name":	"European Economic History I (1800-1914)",
+			"university":	"electives",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "Wolf",
+			"sp": "6",
+			"category" : "Electives",
+			"subcategory" : "",
+			"language"	: "english",
+			"annotation"	:	"lecture and excersie are given together",
+			"lectures": [
+				{
+					"day":"Dienstag",
+					"startTime": 14,
+					"duration": 2,
+					"room": "Room 125",
+					"type": "VL"
+				}
+			]
+		},
+		{
+			"name":	"[E] European Economic History I (1800-1914)",
+			"university":	"exercise_courses",
+			"address" : "Spandauer Straße 1",
+			"taken": true,
+			"lecturer": "Mihram",
+			"sp": "6",
+			"category" : "Exercise",
+			"subcategory" : "",
+			"language"	: "english",
+			"annotation"	:	"lecture and excersie are given together",
+			"lectures": [
+				{
+					"day":"Dienstag",
+					"startTime": 14,
+					"duration": 2,
+					"room": "Room 125",
+					"type": "VL"
+				}
+			]
+		},
 	]
 }
