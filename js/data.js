@@ -73,6 +73,7 @@ var data = {
 			"sp": "6",
 			"category" : "Mandatory Courses",
 			"subcategory" : "Microeconomics",
+<<<<<<< HEAD
 			"language"	: "english",
 <<<<<<< HEAD
 			"annotation" : "",
@@ -81,6 +82,10 @@ var data = {
 					"day":"Dienstag",
 =======
 			"annotation" : "course starts at 8:30 am",
+=======
+			"language"	:	"english",
+			"annotation"	:	"course starts at 8:30 am",
+>>>>>>> master
 			"lectures": [
 				{
 					"day":"Montag",
@@ -111,7 +116,7 @@ var data = {
 			"sp": "0",
 			"category" : "Exercise Courses",
 			"language"	: "english",
-			"annotation" : "Morning course starts at 8:30 am",
+			"annotation"	:	"Morning course starts at 8:30 am",
 			"lectures": [
 				{
 					"day":"Mittwoch",
@@ -139,7 +144,7 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Microeconomics",
 			"language"	: "english",
-			"annotation" : "This course already starts on October 12th"
+			"annotation"	:	"This course already starts on October 12th"
 			"lectures": [
 				{
 					"day":"Montag",
@@ -159,7 +164,7 @@ var data = {
 			"sp": "0",
 			"category" : "Exercise Courses",
 			"language"	: "english",
-			"annotation" : "",
+			"annotation"	:	"",
 			"lectures": [
 				{
 					"day":"Donnerstag",
@@ -187,7 +192,11 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Macroeconomics",
 			"language"	: "english",
+<<<<<<< HEAD
 			"annotation" : "",
+=======
+			"annotation"	:	""
+>>>>>>> master
 			"lectures": [
 				{
 					"day":"Dienstag",
@@ -207,7 +216,7 @@ var data = {
 			"sp": "0",
 			"category" : "Exercise Courses",
 			"language"	: "english",
-			"annotation" : "",
+			"annotation"	:	"",
 			"lectures": [
 				{
 					"day":"Donnerstag",
@@ -235,7 +244,7 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Macroeconomics",
 			"language"	: "english",
-			"annotation" : ""
+			"annotation"	:	""
 			"lectures": [
 				{
 					"day":"Mittwoch",
@@ -256,7 +265,7 @@ var data = {
 			"category" : "Mandatory Courses",
 			"subcategory" : "Econometrics",
 			"language"	: "english",
-			"annotation" : ""
+			"annotation"	:	""
 			"lectures": [
 				{
 					"day":"Dienstag",
@@ -284,7 +293,7 @@ var data = {
 			"category" : "Exercise Courses",
 			"subcategory" : "Econometrics",
 			"language"	: "english",
-			"annotation" : ""
+			"annotation"	:	""
 			"lectures": [
 				{
 					"day":"Donnerstag",
