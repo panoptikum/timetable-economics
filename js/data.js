@@ -35,7 +35,11 @@ var data = {
         {
           "name": "Research Seminars VWL",
           "sp_range": [0]
-        }
+        },
+				{
+					"name": "Lectures",
+					"sp_range": [6]
+				}
 			]
 		},
     {
