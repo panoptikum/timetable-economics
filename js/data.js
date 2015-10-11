@@ -37,7 +37,7 @@ var data = {
           "sp_range": [0]
         },
 				{
-					"name:" "Unit",
+					"name": "Unit",
 					"sp_range": [6]
 				}
 			]
