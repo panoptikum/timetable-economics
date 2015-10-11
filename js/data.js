@@ -318,7 +318,7 @@ var data = {
 			"lecturer": "Wolf",
 			"sp": "6",
 			"category" : "Electives",
-			"subcategory" : "",
+			"subcategory" : "Unit",
 			"language"	: "english",
 			"annotation"	:	"lecture and excersie are given together",
 			"lectures": [
