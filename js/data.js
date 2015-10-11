@@ -249,7 +249,7 @@ var data = {
 					"type": "VL"
 				},
 				{
-					"day":"Mittwoch"
+					"day":"Mittwoch",
 					"startTime": 10,
 					"duration": 2,
 					"room": "Room 202",
@@ -277,7 +277,7 @@ var data = {
 					"type": "Exercise"
 				},
 				{
-					"day":"Freitag"
+					"day":"Freitag",
 					"startTime": 12,
 					"duration": 2,
 					"room": "Room 202",
